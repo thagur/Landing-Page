@@ -1,0 +1,336 @@
+**********************************************HTML CODE*********************************************************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Landing Page</title>
+</head>
+
+<body class="light-theme" data-bs-theme="light">
+  <div class="background">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4" style="font-weight: bold; color:brown">The Coffee Company</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link" aria-current="page" style="font-weight: bold; color:brown;">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" style="color: brown; font-weight: bold;">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" style="color:brown;font-weight: bold;">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" style="color:brown; font-weight: bold;">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" style="color:brown; font-weight: bold;">About</a></li>
+      </ul>
+    </header>
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <!-- You can add an image here if needed -->
+      </div>
+      <div class="col-lg-6">
+        <h1>Finding your next favourite <br>coffee made easy</h1>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="button" style="margin-left: 150px;">Try Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="division">
+    <p class="lead">Getting Started</p>
+  </div>
+
+  <!-- Step 1 -->
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+          <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+        </svg>
+        <br><br>
+        <span class="text-body-secondary">Choose your Method</span>
+      </h2>
+    </div>
+    <div class="col-md-5">
+      <img src="Step 1.jpg" alt="Description of the image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400">
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="row featurette step2">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-2-circle" viewBox="0 0 16 16">
+          <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
+        </svg>
+        <br><br>
+        Choose your preferred strength
+      </h2>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img src="Step2.jpg.png" alt="Description of the image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300" height="300">
+    </div>
+  </div>
+
+  <!-- Step 3 -->
+  <div class="row featurette">
+    <div class="col-md-7">
+      <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="currentColor" class="bi bi-3-circle" viewBox="0 0 16 16">
+        <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"/>
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8"/>
+      </svg><br>
+      <br>
+      <h2 class="featurette-heading fw-normal lh-1">
+        Choose your flavour
+        </h2>
+    </div>
+    <div class="col-md-5">
+      <img src="Step 3.jpg.png" alt="Description of the image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+    </div>
+  </div>
+  <div class="contact">
+    <p class="under">Get 50% off on order.</p>
+    <h4>Subscribe now </h4>
+    <div class="input-container">
+      <input type="email" class="inputbox" name="email" placeholder="Email Id">
+      <button class="order-button">Order Now</button>
+    </div>
+  </div>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 The Coffee Company, Inc</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
+**********************************************CSS CODE**************************************************
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.row.featurette {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2rem; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 300px;
+}
+
+
+.row.featurette.step2 {
+    background-color:#f6f2f3;
+}
+
+.col-md-7, .col-md-5 {
+    flex: 1;
+    padding: 15px;
+}
+
+
+.featurette-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.featurette-heading .text-body-secondary {
+    color: #6c757d; 
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.featurette p.lead {
+    font-size: 1.25rem;
+    color: #555;
+    text-align: center;
+}
+
+.featurette-image {
+    border-radius: 10px; 
+    max-width: 100%;
+    height: auto; 
+}
+
+@media (max-width: 768px) {
+    .row.featurette {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .col-md-7, .col-md-5 {
+        flex: none;
+        width: 100%;
+    }
+    
+    .featurette-heading {
+        font-size: 1.75rem;
+    }
+    
+    .featurette p.lead {
+        font-size: 1rem;
+    }
+}
+header {
+    background-color: #e4cdd2; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.background {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h1 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    margin: 50px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.button {
+    background-color: #8d515a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.division {
+    background-color: #e4cdd2; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+.lead {
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact {
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h4 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.contact p {
+    margin-top: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.inputbox {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #9a8888;
+    border-radius: 20px;
+    background-color: #fffafa;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.inputbox::placeholder {
+    color: #9a8888;
+}
+
+.inputbox:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.order-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100%;
+    border: none;
+    background-color: #34302c;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #67696c;
+}
+.under{
+    font-size: larger;
+    font-family: cursive;
+    color: #fff;
+    font-weight: bolder;
+    text-align: justify;
+}
+
